@@ -1,0 +1,12 @@
+# Write a GraphQL query using the character(id: ID!) field to fetch the details of a character.
+
+query {
+    character(id: "1") {
+        id
+        name
+        status
+        species
+        type
+        gender
+    }
+}
