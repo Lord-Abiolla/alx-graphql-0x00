@@ -1,0 +1,13 @@
+# Write a GraphQL query using the characters(page: Int) field to fetch the list of characters
+# Select the subfields: id, name, status, and image.
+
+query {
+    characters(page: 1) {
+        results {
+            id
+            name
+            status
+            image
+        }
+    }
+}
